@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+/* ================= ROOT THEME ================= */
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -12,6 +13,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* ================= DARK MODE ================= */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -19,8 +21,82 @@
   }
 }
 
+/* ================= BASE ================= */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Offset for fixed navbar */
+section,
+main {
+  scroll-margin-top: 64px; /* navbar height */
+}
+
+/* ================= RESPONSIVE SECTION UTILITY ================= */
+/* Mobile (default) */
+.section {
+  padding: 16px;
+  font-size: 14px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .section {
+    padding: 32px;
+    font-size: 16px;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+  .section {
+    padding: 64px;
+    font-size: 18px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1280px) {
+  .section {
+    max-width: 1280px;
+    margin: auto;
+  }
+}
+
+/* ================= HERO ANIMATIONS ================= */
+
+/* Background slow zoom */
+@keyframes heroZoom {
+  0% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+/* Fade up animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeUp {
+  animation: fadeUp 0.8s ease-out forwards;
 }
