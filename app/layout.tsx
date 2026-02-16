@@ -1,41 +1,3 @@
-// import type { Metadata } from "next";
-// import { Geist, Geist_Mono } from "next/font/google";
-// import "./globals.css";
-
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
-
-// export const metadata: Metadata = {
-//   title: "KDC.inlive – Kolhapur District Cricket Live",
-//   description: "KDC.inlive is the ultimate hub for Kolhapur district cricket live streaming, match updates, community, and fan engagement.",
-// };
-
-// export default function RootLayout({
-//   children,
-// }: Readonly<{
-//   children: React.ReactNode;
-// }>) {
-//   return (
-//     // <html lang="en">
-//     <html lang="en" suppressHydrationWarning>
-
-//       <body
-//         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-//       >
-//         {children}
-//       </body>
-//     </html>
-//   );
-// }
-
-
 import "./globals.css";
 import type { Metadata } from "next";
 
@@ -43,6 +5,9 @@ export const metadata: Metadata = {
   title: "KDC.inlive | Kolhapur District Cricket Live",
   description:
     "Watch live Kolhapur district cricket matches, player highlights, fixtures, and live updates on KDC.inlive.",
+  verification: {
+    google: "c9hUhATiZ1kPgxUsSvRGgbsZ4svsNEJINpLTuNI4WL4",
+    },
   keywords: [
     "KDC live",
     "Kolhapur cricket",
@@ -71,13 +36,7 @@ export const metadata: Metadata = {
     locale: "en_IN",
     type: "website",
   },
-  // twitter: {
-  //   card: "summary_large_image",
-  //   title: "KDC.inlive",
-  //   description:
-  //     "Watch live Kolhapur district cricket matches and updates.",
-  //   images: ["/og-image.jpg"],
-  // },
+  
 };
 
 export default function RootLayout({
