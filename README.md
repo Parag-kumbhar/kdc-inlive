@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<!-- This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
@@ -33,4 +33,100 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details. -->
+
+KDC.inlive – Kolhapur District Cricket Live
+
+KDC.inlive is a modern, responsive web platform for streaming and promoting Kolhapur district cricket.
+It showcases live matches, player highlights, fixtures, and community content.
+
+
+🚀 Live Website
+
+https://kdc-inlive.vercel.app
+
+
+📌 Features
+
+• Live cricket match streaming links
+
+• Player highlights and profiles
+
+• Tournament fixtures timeline
+
+• Instagram and YouTube integration
+
+• Smooth scroll animations
+
+• Responsive mobile design
+
+• SEO-optimized structure
+
+• Google Search Console ready
+
+
+
+🛠 Tech Stack
+
+• Framework: Next.js (App Router)
+
+• Styling: Tailwind CSS
+
+• Animations: Custom hooks + CSS
+
+• Deployment: Vercel
+
+• Version Control: GitHub
+
+
+
+📂 Project Structure
+
+app/
+  components/
+  hooks/
+  page.tsx
+  layout.tsx
+public/
+  images
+
+
+
+⚙️ Local Development
+
+1. Install dependencies
+    npm install
+
+2. Run development server
+    npm run dev
+
+Open:
+    http://localhost:3000
+    
+
+
+🌐 Deployment (Vercel)
+Automatic deployment (recommended)
+
+    1.Push code to GitHub
+    2.Connect repo to Vercel
+    3.Vercel deploys automatically
+
+
+📦 Manual Build
+
+    npm run build
+    npm start
+
+
+🔍 SEO Setup
+    • Google Search Console verified
+    • Sitemap:
+                /public/sitemap.xml
+
+     • Robots file will be added after custom domain
+
+
+👤 Author
+ • Parag R Kumbhar
+ • Developer
