@@ -1,44 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://kdcinlive.com/</loc>
+    <loc>https://kdc-inlive.vercel.app/</loc>
     <lastmod>2026-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://kdcinlive.com/#features</loc>
+    <loc>https://kdc-inlive.vercel.app/#features</loc>
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://kdcinlive.com/#youtube</loc>
+    <loc>https://kdc-inlive.vercel.app/#youtube</loc>
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://kdcinlive.com/#players</loc>
+    <loc>https://kdc-inlive.vercel.app/#players</loc>
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://kdcinlive.com/#fixtures</loc>
+    <loc>https://kdc-inlive.vercel.app/#fixtures</loc>
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://kdcinlive.com/#contact</loc>
+    <loc>https://kdc-inlive.vercel.app/#contact</loc>
     <lastmod>2026-02-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
