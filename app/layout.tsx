@@ -6,6 +6,16 @@ export const metadata: Metadata = {
   description:
     "Watch live Kolhapur district cricket matches, player highlights, fixtures, and live updates on KDC.inlive.",
 
+  keywords: [
+    "KDC live",
+    "KDC.inlive",
+    "Kolhapur cricket live",
+    "district cricket live",
+    "KDC live streaming",
+    "Kolhapur live match",
+  ],
+
+
   verification: {
     google: "c9hUhATiZ1kPgxUsSvRGgbsZ4svsNEJINpLTuNI4WL4",
   },
