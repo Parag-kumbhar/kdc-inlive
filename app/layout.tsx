@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "KDC.inlive | Kolhapur District Cricket Live",
+  title: "KDC Live | Kolhapur District Cricket Live",
   description:
     "Watch live Kolhapur district cricket matches, player highlights, fixtures, and live updates on KDC.inlive.",
 
