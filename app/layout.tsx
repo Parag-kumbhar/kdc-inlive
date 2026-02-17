@@ -9,6 +9,15 @@ export const metadata: Metadata = {
   verification: {
     google: "c9hUhATiZ1kPgxUsSvRGgbsZ4svsNEJINpLTuNI4WL4",
   },
+
+  // Favicon for browser + Google search
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
+
+
 };
 
 export default function RootLayout({
