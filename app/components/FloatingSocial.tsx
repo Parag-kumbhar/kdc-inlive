@@ -30,7 +30,7 @@ export default function FloatingSocial() {
 
       {/* Instagram */}
       <a
-        href="https://www.instagram.com/kgcliveofficial"
+        href="https://www.instagram.com/kdcliveofficial_?igsh=MXVsN2V2Z3dudWU3aA=="
         target="_blank"
         aria-label="Instagram"
         className="w-12 h-12 flex items-center justify-center

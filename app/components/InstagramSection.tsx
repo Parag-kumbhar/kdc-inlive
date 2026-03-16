@@ -178,7 +178,7 @@ export default function InstagramSection() {
             📸 Follow us on Instagram:
           </span>
           <a
-            href="https://www.instagram.com/kgcliveofficial"
+            href="https://www.instagram.com/kdcliveofficial_?igsh=MXVsN2V2Z3dudWU3aA=="
             target="_blank"
             className="text-lg font-bold text-blue-600 hover:underline"
           >
